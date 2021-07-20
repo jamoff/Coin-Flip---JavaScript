@@ -32,7 +32,7 @@ else if (player == 1 && computer == 0) {
   computerResult += 1;
 }
 
-var question = prompt("Would you like to play again?")
+var question = prompt("Would you like to play again? (Y/N)")
 
 while (question === "Y") {
   var player = parseInt(prompt("Press '0' for Heads. Press '1' for Tails"))
